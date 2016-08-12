@@ -85,6 +85,14 @@
 			</dict>
 			
 		</config-file>
+		
+		<!-- ios9 适配 query Schemes -->
+		<config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+			<array>
+				<string>safepay</string>
+				<string>alipay</string>
+			</array>
+		</config-file>
 	    
 	    
 		<!-- build setting header search path $(SRCROOT)/X5 -->
