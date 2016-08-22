@@ -77,7 +77,7 @@
 			
 		</config-file>
 
-		ios9不允许http访问，需要使用https访问，添加以下属性使http正常使用 
+		<!-- ios9不允许http访问，需要使用https访问，添加以下属性使http正常使用 -->
 		<config-file target="*-Info.plist" parent="NSAppTransportSecurity">
 		    	<dict>
 		    	<key>NSAllowsArbitraryLoads</key>
